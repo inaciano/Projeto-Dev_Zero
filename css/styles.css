@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.caixa-superior{
+    background-image: url(../img/contabi.png);
+    background-size: cover;
+    height: 90vh;
+
+}
+.cabecalho{
+    padding-top: 25px;
+    padding-left: 35px;
+}
+.titulo-cabecalho{
+   font-size: 24px;
+   color: #FFF;
+   display: inline;
+    
+}
+.link-cabecalho{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    display: inline;
+    margin-left: 50px;
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+h1{
+    font-size: 50px;
+    color: #FFF;
+    position: relative;
+    top: 250px;
+    margin-left: 35px;
+}
+
+form{
+    opacity: 0;
+    transition: opacity 1s linear;
+     background-color: #FFF;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 80px;
+    position: relative;
+    bottom: 70px;
+}
+.mostar-formulario{
+    opacity: 1;
+}
+input{
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    width: 250px;
+    height: 40px;  
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+textarea{
+    display: block;
+    height: 80px;
+    width: 250px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+}
+.titulo-formulario{
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+label{
+    font-size: 14px;
+    color: #252B42;
+    font-weight: 700;
+    
+}
+button{
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #40BB15;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 700;    
+}
+#titulo-meio{
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+.caixa-central{
+    display: flex;
+    justify-content: space-evenly;   
+    margin-bottom: 50px;
+}
+.card{
+    width: 300px;
+    background-color: #FFF;
+    border-radius: 8px;
+    border: 1px solid #A9D6FF;
+}
+.titulo-card{
+    background: #40BB15;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+ul{
+    padding: 15px;   
+}
+li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    list-style: none;
+   
+}
+#link-cabecalho {
+    border-top: 0.4px solid #FFF2E7;
+    text-align: center;
+    padding: 32px;  
+    margin: 40px 0 auto;
+    background-color: #40BB15;  
+    color: #FFF;
+    
+  }
+
+#link-cabecalho p{
+    color: #FFF2E7;
+    font-weight: 700;
+    font-size: 20px;
+}
+.caixa-inferior{
+    background-color: #00095d;
+
+}
+#titulo-inferior{
+
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.paragrafo-inferior{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+
+}
